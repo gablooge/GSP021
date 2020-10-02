@@ -13,7 +13,7 @@ gcloud config set compute/zone us-central1-b
 gcloud container clusters create io
 
 
-cd orchestrate-with-kubernetes/kubernetes
+cd kubernetes
 
 kubectl create deployment nginx --image=nginx:1.10.0
 kubectl expose deployment nginx --port 80 --type LoadBalancer
